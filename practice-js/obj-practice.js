@@ -22,6 +22,6 @@ for (let element of campus.buildingD) {
 }
 
 for (let element2 of gakka) {
-	console.log(element2);
+	console.log(element2.name);
 	
 }
