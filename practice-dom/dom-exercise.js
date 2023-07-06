@@ -14,6 +14,9 @@ let data = [
 //// 注意: 以上は編集しないこと!
 
 // 練習4-2 メッセージ追加プログラム
+let div = document.querySelector('div#phototable');
+let beeLink = document.createElement('p');
+beeLink.setAttribute(taro.png);
 
 
 // 練習4-3 写真表作成プログラム
