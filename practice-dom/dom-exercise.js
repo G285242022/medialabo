@@ -16,14 +16,36 @@ let data = [
 // 練習4-2 メッセージ追加プログラム
 let div = document.querySelector('div#phototable');
 let beeLink = document.createElement('p');
-beeLink.setAttribute(taro.png);
+let beelink = document.createElement('img');
+beelink.setAttribute("src","taro.png");
+beeLink.appendChild(beelink);
+div.appendChild(beeLink);
+beeLink = document.createElement('p');
+beelink = document.createElement('img');
+beelink.setAttribute("src","jiro.png");
+beeLink.appendChild(beelink);
+div.appendChild(beeLink);
+beeLink = document.createElement('p');
+beelink = document.createElement('img');
+beelink.setAttribute("src","hanako.png");
+beeLink.appendChild(beelink);
+div.appendChild(beeLink);
 
 
 // 練習4-3 写真表作成プログラム
 
 
 // 練習4-4 箇条書き削除プログラム
+let k = document.querySelector("ul#location");
+k.remove();
+let l = document.createElement('p');
+//p.textContent
+for (let element of data) {
+	console.log(element.name);
+}
+
 
 
 // 練習4-5 箇条書き追加プログラム
+//まず、
 
