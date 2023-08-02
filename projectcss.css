@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: "Helvetica", Arial, sans-serif;
+    background-image: url(BP18-005636.webp); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  h1 {
+    color: white;
+    text-align: center;
+    padding: 40px 0;
+    font-size: 48px;
+    letter-spacing: 4px;
+    text-shadow: 3px 3px 6px rgb(175, 227, 251);
+  }
+  
+  label {
+    color: white; 
+    font-size: 24px;
+    letter-spacing: 2px;
+    margin-right: 10px;
+  }
+  
+  input[type="text"] {
+    font-size: 24px;
+    padding: 10px 16px;
+    border: 1px solid #000000; 
+    border-radius: 0px;
+    color: #000000; 
+  }
+  
+  button {
+    font-size: 24px;
+    background-color: blue; 
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    cursor: pointer;
+    border-radius: 50px;
+    text-shadow: 2px 2px 4px skyblue;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: skyblue; 
+  }
+  
+  #result {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .city {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    background-color: rgba(255, 255, 255, 0.9); 
+  }
+  
+  h2 {
+    color: #d63031; 
+    margin-bottom: 10px;
+    font-size: 32px;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 2px rgba(214, 48, 49, 0.2);
+  }
+  
+  .weather-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .weather-info p {
+    margin: 5px 0;
+    font-size: 24px;
+    letter-spacing: 1.5px;
+  }
+  
+  .icon {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
